@@ -449,6 +449,7 @@ footer {
 .footer-contact {
     display: flex;
     flex-direction: column;
+      height: 130px;
 }
 
 .footer-links {
@@ -463,6 +464,7 @@ footer {
     font-size: 18px;
     color: white;
     font-weight: 500;
+    width: 90%;
 }
 
 .footer-links ul {
@@ -504,6 +506,7 @@ footer {
 }
 
 .footer-contact p {
+    width: 90%;
     font-size: 16px;
     font-family: inter;
     font-weight: 400;
@@ -2184,8 +2187,8 @@ footer {
         width: 100%;
         height: 60px;
         padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
         background: rgba(0, 0, 0, 0.65);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -2199,6 +2202,18 @@ footer {
         z-index: 1000;
         width: 100%;
         max-width: 1600px;
+    }
+
+    .class-hidden {
+        display: block;
+    }
+
+    .class-hidden-mobile {
+        display: none;
+    }
+
+    .class-hidden-mobile img {
+        display: none;
     }
 
     .icon {
@@ -2216,14 +2231,14 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     .navbar_child_2 a {
-        padding-left: 10px;
+        padding-left: 5px;
         text-decoration: none;
         color: white;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
         font-family: inter;
         transition: transform 0.3s ease, background-color 0.3s ease;
@@ -2235,10 +2250,10 @@ footer {
     }
 
     #active-link {
-        padding-left: 10px;
+        padding-left: 5px;
         text-decoration: none;
         color: #c6a953;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
         font-family: inter;
         text-decoration: underline;
@@ -2330,7 +2345,7 @@ footer {
     }
 
     .title {
-        font-size: 22px;
+        font-size: 24px;
         color: white;
         font-weight: 400;
         font-family: inter;
@@ -2360,20 +2375,20 @@ footer {
 
     .service-text-parent {
         width: 100%;
-        height: 220px;
+        height: 290px;
         display: flex;
         flex-direction: column;
     }
 
     .service-text-parent h1 {
-        font-size: 12px;
+        font-size: 16px;
         color: white;
         font-weight: 400px;
         margin-top: 10px;
     }
 
     .service-text-parent p {
-        font-size: 8px;
+        font-size: 12px;
         color: white;
         font-weight: 400;
         margin-top: 10px;
@@ -2392,7 +2407,7 @@ footer {
 
     .service-text-parent ul li {
         margin-top: 10px;
-        font-size: 8px;
+        font-size: 12px;
         font-weight: 400;
         color: white;
     }
@@ -2469,7 +2484,7 @@ footer {
 
     .location-div-child div img {
         width: 100%;
-        height: 400px;
+        height: 200px;
         object-fit: cover;
         cursor: pointer;
     }
@@ -2482,7 +2497,7 @@ footer {
     }
 
     .location-div-parent p {
-        width: 70%;
+        width: 90%;
         display: flex;
         align-self: center;
         padding: 10px;
@@ -2556,6 +2571,7 @@ footer {
         margin: 0;
         width: 100%;
         background-color: #093414;
+        padding-top: 20px;
     }
 
     .footer-container {
@@ -2568,7 +2584,9 @@ footer {
 
 
     .footer-about {
-        padding: 20px;
+        padding: 0;
+        margin-left: 2%;
+        margin-bottom: 10px;
     }
 
     .footer-logo {
@@ -2576,7 +2594,7 @@ footer {
     }
 
     .footer-about p {
-        font-size: 12px;
+        font-size: 16px;
         color: white;
         font-weight: 400;
         margin-top: 10px;
@@ -2589,14 +2607,11 @@ footer {
 
     .footer-links {
         margin-left: 2%;
-        display: flex;
-        justify-content: space-between;
         height: 170px;
-        flex-direction: column;
     }
 
     .footer-links h4 {
-        font-size: 14px;
+        font-size: 18px;
         color: white;
         font-weight: 500;
     }
@@ -2613,14 +2628,14 @@ footer {
 
     .footer-links ul li a {
         text-decoration: none;
-        font-size: 10px;
+        font-size: 16px;
         color: white;
         font-weight: 400;
     }
 
     .footer-links ul li a:hover {
         text-decoration: none;
-        font-size: 12px;
+        font-size: 16px;
         color: white;
         font-weight: bold;
         text-decoration: underline;
@@ -2636,13 +2651,13 @@ footer {
     }
 
     .footer-contact h4 {
-        font-size: 14px;
+        font-size: 18px;
         color: white;
         font-weight: 500;
     }
 
     .footer-contact p {
-        font-size: 8px;
+        font-size: 16px;
         font-family: inter;
         font-weight: 400;
         color: white;
@@ -2650,10 +2665,7 @@ footer {
     }
 
     .footer-map {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        width: 90%;
     }
 
     .footer-map img {
@@ -2666,6 +2678,7 @@ footer {
         padding: 5px;
         background-color: #c6a953;
         margin-top: 10px;
+        font-size: 6px;
         text-align: center;
     }
 
@@ -2674,7 +2687,7 @@ footer {
         justify-content: center;
         align-items: center;
         gap: 20px;
-        padding-left: 30px;
+        padding-left: 0px;
         padding-top: 30px;
     }
 
@@ -2701,7 +2714,21 @@ footer {
         transform: scale(1.15);
         animation: shake 0.4s ease-in-out;
     }
+       .class-hidden {
+        display: block;
+    }
 
+    .class-hidden img{
+        display: block;
+    }
+
+    .class-hidden-mobile {
+        display: none;
+    }
+
+    .class-hidden-mobile img {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
@@ -3116,6 +3143,7 @@ footer {
     }
 
     .footer-about p {
+        width: 90%;
         font-size: 16px;
         color: white;
         font-weight: 400;
