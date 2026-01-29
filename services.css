@@ -16,7 +16,11 @@
     width: 100%;
     height: 100%;
     padding: 30px;
-    background-color: #093414;
+    background: linear-gradient(rgba(9, 52, 20, 0.7), rgba(9, 52, 20, 0.7)),
+        url('service_card_2.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .services-div-holder {
@@ -172,9 +176,999 @@
     margin-top: 10px;
 }
 
-.gallery-h1{
+.gallery-h1 {
     font-size: 22px;
     font-weight: 600;
     text-align: center;
     color: white;
+}
+
+@media (max-width: 1200px) {
+    .hero-banner-services {
+        width: 100%;
+        height: 100vh;
+        background-image: url(service_card_2.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+
+    .services-page {
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        background-color: #093414;
+    }
+
+    .services-div-holder {
+        width: 100%;
+        height: 570px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+
+    .service-div-child-1 {
+        width: 49%;
+        height: 570px;
+    }
+
+    .service-title {
+        font-size: 28px;
+        font-family: inter;
+        font-weight: 600;
+        color: white;
+    }
+
+    .service-subtitle {
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-2 {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-3 {
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        font-family: inter;
+        margin-top: 10px;
+    }
+
+
+    .service-title-subtext {
+        font-size: 14px;
+        color: white;
+        font-weight: 400;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-subtext {
+        font-size: 16px;
+        color: white;
+        font-family: inter;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .service-div-child-1 ul {
+        margin-left: 2%;
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .service-div-child-1 ul li {
+        list-style: none;
+        font-size: 12px;
+        color: white;
+        margin-top: 5px;
+    }
+
+    .service-subtitle-subtext-bold {
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .service-div-child-2 {
+        width: 49%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .service-div-img-1 {
+        width: 100%;
+        height: 49%;
+        object-fit: cover;
+    }
+
+    .service-div-img-2 {
+        width: 100%;
+        height: 49%;
+        object-fit: cover;
+    }
+
+    .slider-parent {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .slider-track {
+        display: flex;
+        gap: 20px;
+        animation: scroll 30s linear infinite;
+    }
+
+    .slider {
+        max-width: 250px;
+        height: 400px;
+        flex-shrink: 0;
+    }
+
+    .slider img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Infinite scroll */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .contact-number {
+        text-align: center;
+        font-size: 64px;
+        color: white;
+        font-weight: bold;
+        margin-top: 60px;
+    }
+
+    .contact-subtitle {
+        width: 100%;
+        font-size: 24px;
+        color: white;
+        font-family: inter;
+        font-weight: 400;
+        text-align: start;
+        margin-top: 10px;
+    }
+
+    .gallery-h1 {
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .class-hidden {
+        display: block !important;
+    }
+
+    .class-hidden img {
+        display: block !important;
+    }
+
+    .class-hidden-mobile {
+        display: none;
+    }
+
+    .class-hidden-mobile img {
+        display: none;
+    }
+
+    .hero-banner-services {
+        width: 100%;
+        height: 100vh;
+        background-image: url(service_card_2.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+
+    .services-page {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background-color: #093414;
+    }
+
+    .services-div-holder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .service-div-child-1 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .service-title {
+        font-size: 24px;
+        font-family: inter;
+        font-weight: 600;
+        color: white;
+    }
+
+    .service-subtitle {
+        font-size: 22px;
+        font-weight: 600;
+        color: white;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-2 {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-3 {
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        font-family: inter;
+        margin-top: 10px;
+    }
+
+
+    .service-title-subtext {
+        font-size: 14px;
+        color: white;
+        font-weight: 400;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-subtext {
+        font-size: 14px;
+        color: white;
+        font-family: inter;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .service-div-child-1 ul {
+        margin-left: 2%;
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .service-div-child-1 ul li {
+        list-style: none;
+        font-size: 12px;
+        color: white;
+        margin-top: 5px;
+    }
+
+    .service-subtitle-subtext-bold {
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    .service-div-child-2 {
+        width: 100%;
+        height: 50% !important;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .service-div-img-1 {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .service-div-img-2 {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .slider-parent {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .slider-track {
+        display: flex;
+        gap: 20px;
+        animation: scroll 30s linear infinite;
+    }
+
+    .slider {
+        max-width: 250px;
+        height: 400px;
+        flex-shrink: 0;
+    }
+
+    .slider img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Infinite scroll */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .contact-number {
+        text-align: center;
+        font-size: 48px;
+        color: white;
+        font-weight: bold;
+        margin-top: 60px;
+    }
+
+    .contact-subtitle {
+        width: 100%;
+        font-size: 22px;
+        color: white;
+        font-family: inter;
+        font-weight: 400;
+        text-align: start;
+        margin-top: 10px;
+    }
+
+    .gallery-h1 {
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        color: white;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .class-hidden {
+        display: block !important;
+    }
+
+    .class-hidden img {
+        display: block !important;
+    }
+
+    .class-hidden-mobile {
+        display: none;
+    }
+
+    .class-hidden-mobile img {
+        display: none;
+    }
+
+    .hero-banner-services {
+        width: 100%;
+        height: 100vh;
+        background-image: url(service_card_2.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+
+    .services-page {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background-color: #093414;
+    }
+
+    .services-div-holder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .service-div-child-1 {
+        width: 100%;
+        height: 500px;
+    }
+
+    .service-title {
+        font-size: 22px;
+        font-family: inter;
+        font-weight: 400;
+        color: white;
+    }
+
+    .service-subtitle {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-2 {
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-3 {
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        font-family: inter;
+        margin-top: 10px;
+    }
+
+
+    .service-title-subtext {
+        font-size: 14px;
+        color: white;
+        font-weight: 400;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-subtext {
+        font-size: 14px;
+        color: white;
+        font-family: inter;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .service-div-child-1 ul {
+        margin-left: 2%;
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .service-div-child-1 ul li {
+        list-style: none;
+        font-size: 12px;
+        color: white;
+        margin-top: 5px;
+    }
+
+    .service-subtitle-subtext-bold {
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    .service-div-child-2 {
+        width: 100%;
+        height: 50% !important;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .service-div-img-1 {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .service-div-img-2 {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .slider-parent {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .slider-track {
+        display: flex;
+        gap: 20px;
+        animation: scroll 30s linear infinite;
+    }
+
+    .slider {
+        max-width: 250px;
+        height: 400px;
+        flex-shrink: 0;
+    }
+
+    .slider img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Infinite scroll */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .contact-number {
+        text-align: center;
+        font-size: 48px;
+        color: white;
+        font-weight: bold;
+        margin-top: 60px;
+    }
+
+    .contact-subtitle {
+        width: 100%;
+        font-size: 22px;
+        color: white;
+        font-family: inter;
+        font-weight: 400;
+        text-align: start;
+        margin-top: 10px;
+    }
+
+    .gallery-h1 {
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        color: white;
+    }
+}
+
+
+
+@media (max-width: 600px) { 
+ .class-hidden {
+        display: block !important;
+    }
+
+    .class-hidden img {
+        display: block !important;
+    }
+
+    .class-hidden-mobile {
+        display: none;
+    }
+
+    .class-hidden-mobile img {
+        display: none;
+    }
+
+    .hero-banner-services {
+        width: 100%;
+        height: 100vh;
+        background-image: url(service_card_2.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+
+    .services-page {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background-color: #093414;
+    }
+
+    .services-div-holder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .service-div-child-1 {
+        width: 100%;
+        height: 500px;
+    }
+
+    .service-title {
+        font-size: 22px;
+        font-family: inter;
+        font-weight: 400;
+        color: white;
+    }
+
+    .service-subtitle {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-2 {
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-3 {
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        font-family: inter;
+        margin-top: 10px;
+    }
+
+
+    .service-title-subtext {
+        font-size: 14px;
+        color: white;
+        font-weight: 400;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-subtext {
+        font-size: 14px;
+        color: white;
+        font-family: inter;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .service-div-child-1 ul {
+        margin-left: 2%;
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .service-div-child-1 ul li {
+        list-style: none;
+        font-size: 12px;
+        color: white;
+        margin-top: 5px;
+    }
+
+    .service-subtitle-subtext-bold {
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    .service-div-child-2 {
+        width: 100%;
+        height: 50% !important;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .service-div-img-1 {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .service-div-img-2 {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .slider-parent {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .slider-track {
+        display: flex;
+        gap: 20px;
+        animation: scroll 30s linear infinite;
+    }
+
+    .slider {
+        max-width: 250px;
+        height: 400px;
+        flex-shrink: 0;
+    }
+
+    .slider img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Infinite scroll */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .contact-number {
+        text-align: center;
+        font-size: 48px;
+        color: white;
+        font-weight: bold;
+        margin-top: 60px;
+    }
+
+    .contact-subtitle {
+        width: 100%;
+        font-size: 22px;
+        color: white;
+        font-family: inter;
+        font-weight: 400;
+        text-align: start;
+        margin-top: 10px;
+    }
+
+    .gallery-h1 {
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        color: white;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+     .class-hidden {
+        display: block !important;
+    }
+
+    .class-hidden img {
+        display: block !important;
+    }
+
+    .class-hidden-mobile {
+        display: none;
+    }
+
+    .class-hidden-mobile img {
+        display: none;
+    }
+
+    .hero-banner-services {
+        width: 100%;
+        height: 100vh;
+        background-image: url(service_card_2.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+
+    .services-page {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background-color: #093414;
+    }
+
+    .services-div-holder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .service-div-child-1 {
+        width: 100%;
+        height: 100% !important;
+        padding-bottom: 30px;
+    }
+
+    .service-title {
+        font-size: 22px;
+        font-family: inter;
+        font-weight: 400;
+        color: white;
+    }
+
+    .service-subtitle {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-2 {
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-3 {
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        font-family: inter;
+        margin-top: 10px;
+    }
+
+
+    .service-title-subtext {
+        font-size: 14px;
+        color: white;
+        font-weight: 400;
+        font-family: inter;
+        margin-top: 20px;
+    }
+
+    .service-subtitle-subtext {
+        font-size: 14px;
+        color: white;
+        font-family: inter;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .service-div-child-1 ul {
+        margin-left: 2%;
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .service-div-child-1 ul li {
+        list-style: none;
+        font-size: 12px;
+        color: white;
+        margin-top: 5px;
+    }
+
+    .service-subtitle-subtext-bold {
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    .service-div-child-2 {
+        width: 100%;
+        height: 50% !important;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .service-div-img-1 {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .service-div-img-2 {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .slider-parent {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .slider-track {
+        display: flex;
+        gap: 20px;
+        animation: scroll 30s linear infinite;
+    }
+
+    .slider {
+        max-width: 250px;
+        height: 400px;
+        flex-shrink: 0;
+    }
+
+    .slider img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Infinite scroll */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .contact-number {
+        text-align: center;
+        font-size: 48px;
+        color: white;
+        font-weight: bold;
+        margin-top: 60px;
+    }
+
+    .contact-subtitle {
+        width: 100%;
+        font-size: 22px;
+        color: white;
+        font-family: inter;
+        font-weight: 400;
+        text-align: start;
+        margin-top: 10px;
+    }
+
+    .gallery-h1 {
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        color: white;
+    }
 }

@@ -1764,14 +1764,15 @@ footer {
     }
 
     .royalearth_subtitle h2 {
-        font-size: 24px;
+        font-size: 16px;
         color: white;
         font-weight: 400;
         margin-top: 10px;
+        text-align: center;
     }
 
     .royalearth_text p {
-        font-size: 18px;
+        font-size: 12px;
         color: white;
         font-weight: 400;
         margin-top: 10px;
@@ -2842,7 +2843,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 24px;
+        font-size: 22px;
         color: white;
         text-align: center;
         font-weight: 400;
@@ -2850,14 +2851,14 @@ footer {
     }
 
     .royalearth_subtitle h2 {
-        font-size: 22px;
+        font-size: 18px;
         color: white;
         font-weight: 400;
         margin-top: 10px;
     }
 
     .royalearth_text p {
-        font-size: 16px;
+        font-size: 14px;
         color: white;
         font-weight: 400;
         margin-top: 10px;
@@ -3009,6 +3010,7 @@ footer {
         padding-top: 20px;
         padding-bottom: 50px;
         background-color: white;
+        margin-top: 40px;
     }
 
     .location-div-parent h1 {
@@ -3216,6 +3218,7 @@ footer {
 
     .footer-map {
         width: 90%;
+        margin-top: 20px;
     }
 
     .footer-map img {
