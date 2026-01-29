@@ -91,19 +91,19 @@
 }
 
 #hero-1 {
-    background-image: url(/images/hero_3.jpg);
+    background-image: url(hero_3.jpg);
 }
 
 #hero-2 {
-    background-image: url(/images/hero_2.jpg);
+    background-image: url(hero_2.jpg);
 }
 
 #hero-3 {
-    background-image: url(/images/hero_1.jpg);
+    background-image: url(hero_1.jpg);
 }
 
 #hero-4 {
-    background-image: url(/images/hero_4.jpg);
+    background-image: url(hero_4.jpg);
 }
 
 .hero_banner_img {
