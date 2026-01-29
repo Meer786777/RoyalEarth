@@ -5,10 +5,6 @@
     font-family: inter;
 }
 
-.class-hidden{
-    display: none;
-}
-
 .navbar_body {
     width: 100%;
     height: 60px;
@@ -175,10 +171,14 @@
 .our_services {
     width: 100%;
     height: 100%;
-    background-color: #093414;
     padding: 20px;
     padding-top: 30px;
     padding-bottom: 50px;
+    background: linear-gradient(rgba(9, 52, 20, 0.7), rgba(9, 52, 20, 0.7)),
+        url('service_card_2.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .title {
@@ -346,7 +346,12 @@
 .gallery {
     width: 100%;
     padding: 30px;
-    background-color: #093414;
+    background: linear-gradient(rgba(9, 52, 20, 0.7), rgba(9, 52, 20, 0.7)),
+        url('gallery-grid-8.webp');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .gallery h1 {
@@ -401,6 +406,18 @@
     padding: 10px;
 }
 
+footer {
+    width: 100%;
+    /* This creates a 50% transparent version of your green over the image */
+    background: linear-gradient(rgba(9, 52, 20, 0.7), rgba(9, 52, 20, 0.7)),
+        url('IMG_1809.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Optional: adds a parallax scrolling effect */
+}
+
 .site-footer {
     margin: 0;
     width: 100%;
@@ -411,7 +428,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
@@ -547,6 +563,14 @@
 .callnow:hover {
     transform: scale(1.15);
     animation: shake 0.4s ease-in-out;
+}
+
+.class-hidden{
+    display: none;
+}
+
+.class-hidden img{
+    display: none;
 }
 
 @keyframes shake {
@@ -2702,16 +2726,18 @@
         max-width: 1600px;
     }
 
-    .class-hidden{
+    .class-hidden {
         display: block;
     }
 
-    .class-hidden-mobile{
+    .class-hidden-mobile {
         display: none;
     }
-    .class-hidden-mobile img{
+
+    .class-hidden-mobile img {
         display: none;
     }
+
     .icon {
         display: flex;
         justify-content: center;
@@ -2871,7 +2897,7 @@
 
     .service-text-parent {
         width: 100%;
-        height: 260px;
+        height: 290px;
         display: flex;
         flex-direction: column;
     }
@@ -2903,7 +2929,7 @@
 
     .service-text-parent ul li {
         margin-top: 10px;
-        font-size: 8px;
+        font-size: 12px;
         font-weight: 400;
         color: white;
     }
@@ -3103,10 +3129,7 @@
 
     .footer-links {
         margin-left: 2%;
-        display: flex;
-        justify-content: space-between;
         height: 170px;
-        flex-direction: column;
     }
 
     .footer-links h4 {
@@ -3164,9 +3187,6 @@
     }
 
     .footer-map {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: 90%;
     }
 
@@ -3189,7 +3209,7 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
-        padding-left: 30px;
+        padding-left: 0px;
         padding-top: 30px;
     }
 
@@ -3215,6 +3235,21 @@
     .callnow:hover {
         transform: scale(1.15);
         animation: shake 0.4s ease-in-out;
+    }
+       .class-hidden {
+        display: block;
+    }
+
+    .class-hidden img{
+        display: block;
+    }
+
+    .class-hidden-mobile {
+        display: none;
+    }
+
+    .class-hidden-mobile img {
+        display: none;
     }
 
 }
